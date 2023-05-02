@@ -1,6 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const { createSVG } = require('./utils/svgUtils');
+const { createSVG } = require('./lib/svgUtils');
 
 const questions = [
   {
